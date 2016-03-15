@@ -1,0 +1,145 @@
+/*
+Theme Name: Urmasii lui Moisil
+Author: Cezar Andrici
+Version: 1.0
+ */
+
+
+body {
+  font-size: 18px;
+}
+
+body.page {
+  padding-top: 70px;
+}
+
+.full-size {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.full-size .image {
+  flex-grow: 1;
+
+  width: 100%;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.full-size .image img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+.full-size .menu {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .full-size .menu {
+    margin-bottom: 5rem;  
+  }
+}
+
+.full-size .menu .alert {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+#main-navbar .navbar-toggle {
+  border-color: #337ab7;
+  color: #337ab7;
+}
+
+#main-navbar {
+  background: white;
+}
+
+@media (min-width: 768px) {
+  #main-navbar .navbar-nav>li>a {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  } 
+}
+
+#main-navbar .navbar-brand {
+  padding: 10px 15px;
+  height: auto;
+}
+
+#main-navbar .navbar-brand > img{
+  height: 51px;
+}
+
+.navbar-style .navbar-brand {
+  display: none;
+}
+
+.navbar-style .navbar-right {
+  text-align: center;
+  float: none !important;
+}
+
+.navbar-style .navbar-right ul {
+  text-align: center;
+  float: none;
+}
+
+.navbar-style .navbar-right li {
+  float: none;
+  display: inline-block;
+}
+
+#main-navbar.navbar-fixed-top {
+  border-color: #eee;
+}
+
+.jumbotron {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.02);
+}
+
+.jumbotron h1 {
+  margin-bottom: 30px;
+}
+
+.jumbotron p {
+  margin-bottom: 25px;
+}
+
+.sponsori img {
+  max-width: 100%;
+  height: auto;
+}
+
+.past-events {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  text-align: center;
+  font-size: 16px;
+}
+
+a[disabled] {
+  pointer-events: none;
+  color: grey;
+}
+
+.footer {
+  margin-top: 80px;
+  margin-bottom: 80px;
+
+  font-weight: 100;
+  font-size: .85em;
+  line-height: 1.3em;
+  text-align: center;
+  letter-spacing: .05em;
+  color: #cbcbcb;
+}
