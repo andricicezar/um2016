@@ -32,10 +32,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
     <title><?php wp_title( '|', true, 'right' ) ?> Urmasii lui Moisil 2016</title>
-    <?php wp_head() ?>
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
 
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -45,8 +41,9 @@
 
       ga('create', 'UA-75025352-1', 'auto');
       ga('send', 'pageview');
-
     </script>
+
+    <?php wp_head() ?>
   </head>
 
   <body <?php body_class() ?>>
@@ -54,9 +51,7 @@
     <?php if (is_front_page()): ?>
       <section class="container full-size">
         <div class="image">
-          <div>
-            <img src="<?php echo get_template_directory_uri(); ?>/images/sigla-mare.jpg" alt="Urmasii lui Moisil 2016" title="Urmasii lui Moisil 2016" />
-          </div>
+          <img src="<?php echo get_template_directory_uri(); ?>/images/sigla-mare.jpg" alt="Urmasii lui Moisil 2016" title="Urmasii lui Moisil 2016" />
         </div>
 
         <div class="menu">

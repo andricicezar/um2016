@@ -1,4 +1,4 @@
-(function() {
+(function($) {
   'use strict';
 
   var data = {
@@ -8,10 +8,17 @@
   var octopus = {
     initialize: function() {
       views.initializeNavbar();
+      views.initializeFullSizeImage();
+      if ($('.gallery').length > 0) {
+        views.initializeGallery();
+      }
 
-      google.maps.event.addDomListener(window, 'load', views.initializeMap);
+      if (typeof google !== "undefined") {
+        google.maps.event.addDomListener(window, 'load', views.initializeMap);
+      }
       $(document).on('scroll', views.initializeNavbar);
-      $(document).on('resize', octopus.resetPivotPoint);
+      $(window).on('resize', octopus.resetPivotPoint);
+      $(window).on('resize', views.initializeFullSizeImage);
     },
 
     setPivotPoint: function(pivotPoint) {
@@ -52,6 +59,18 @@
       }
     },
 
+    initializeFullSizeImage: function() {
+      var fullSizeDiv = $(".full-size");
+
+      if (fullSizeDiv.length == 0) return;
+
+      var windowHeight = window.innerHeight;
+      var menuHeight = $(".full-size .menu").height() + parseInt($(".full-size .menu").css("margin-bottom"), 10);
+      
+      fullSizeDiv.height(windowHeight);
+      $(".full-size .image").height(windowHeight - menuHeight);
+    },
+
     initializeMap: function() {
       var mapOptions = {
         center: new google.maps.LatLng(47.179974, 27.569116),
@@ -71,10 +90,23 @@
         map: map,
         title: 'Universitatea AL.I.Cuza - Aula "M.Eminescu" '
       });
+    },
+
+    initializeGallery: function() {
+      var grid = $('.gallery').masonry({
+        // options
+        itemSelector: '.gallery-item',
+        columnWidth: '.gallery-item',
+        percentPosition: true
+      });
+
+      grid.imagesLoaded().progress( function() {
+        grid.masonry('layout');
+      });
     }
   };
 
 
   octopus.initialize();
-})();
+})(jQuery);
 

@@ -13,28 +13,30 @@ body.page {
   padding-top: 70px;
 }
 
+a[disabled] {
+  pointer-events: none;
+  color: grey;
+}
+
 .full-size {
   height: 100vh;
-  display: flex;
-  flex-direction: column;
 }
 
 .full-size .image {
-  flex-grow: 1;
-
   width: 100%;
-  text-align: center;
-
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
 }
+
 
 .full-size .image img {
   max-width: 100%;
   max-height: 100%;
   width: auto;
   height: auto;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .full-size .menu {
@@ -118,6 +120,7 @@ body.page {
 .sponsori img {
   max-width: 100%;
   height: auto;
+  margin: 5px;
 }
 
 .past-events {
@@ -127,9 +130,15 @@ body.page {
   font-size: 16px;
 }
 
-a[disabled] {
-  pointer-events: none;
-  color: grey;
+.gallery-item {
+  width: 20%;
+  float: left;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  padding: 0 4px 4px 0;
 }
 
 .footer {

@@ -12,10 +12,90 @@
 
     </section>
 
-    <section class="container">
+    <section class="container" id="program">
 
       <div class="page-header">
         <h1>Program</h1>
+      </div>
+
+      <p><strong>Vineri, 01.04.2016</strong></p>
+
+      <div class="row">
+        <div class="col-sm-2 col-xs-2 text-right">18:00</div>
+        <div class="col-sm-7 col-xs-6">Deschiderea festiv&#259; - <strong>Aula "M. Eminescu", Universitatea "Al. I. Cuza"</strong></div>
+        <div class="col-sm-3 col-xs-4">To&#355;i participan&#355;ii</div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-2 col-xs-2 text-right">19:30</div>
+        <div class="col-sm-7 col-xs-6">Cin&#259;</div>
+        <div class="col-sm-3 col-xs-4">To&#355;i participan&#355;ii</div>
+      </div>
+
+      <br/>
+      <p><strong>S&#226;mb&#259;t&#259;, 02.04.2016</strong></p>
+
+      <div class="row">
+        <div class="col-sm-2 col-xs-2 text-right">07:00 - 08:30</div>
+        <div class="col-sm-7 col-xs-6">Micul dejun</div>
+        <div class="col-sm-3 col-xs-4">To&#355;i participan&#355;ii</div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-2 col-xs-2 text-right">08:30 - 12:00</div>
+        <div class="col-sm-7 col-xs-6">Concurs de programare</div>
+        <div class="col-sm-3 col-xs-4">Elevi</div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-2 col-xs-2 text-right">08:30 - 12:00</div>
+        <div class="col-sm-7 col-xs-6">Sesiunea Na&#355;ional&#259; de Comunic&#259;ri &#350;tiin&#355;ifice cu tema "INFO-CALITATE - asigurarea calit&#259;&#355;ii &#238;n &#238;nv&#259;&#355;&#259;m&#226;ntul de informatic&#259;"</div>
+        <div class="col-sm-3 col-xs-4">Profesori</div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-2 col-xs-2 text-right">12:30 - 13:30</div>
+        <div class="col-sm-7 col-xs-6">Masa de pr&#226;nz</div>
+        <div class="col-sm-3 col-xs-4">To&#355;i participan&#355;ii</div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-2 col-xs-2 text-right">15:00 - 16:00</div>
+        <div class="col-sm-7 col-xs-6">Testarea surselor proprii ale concuren&#355;ilor &#238;n laboratoarele de informatic&#259;</div>
+        <div class="col-sm-3 col-xs-4">To&#355;i participan&#355;ii</div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-2 col-xs-2 text-right">18:00 - 19:00</div>
+        <div class="col-sm-7 col-xs-6">Cin&#259;</div>
+        <div class="col-sm-3 col-xs-4">To&#355;i participan&#355;ii</div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-2 col-xs-2 text-right">19:00 - 22:00</div>
+        <div class="col-sm-7 col-xs-6">Descoper&#259; Ia&#351;ul - activit&#259;&#355;i de timp liber</div>
+        <div class="col-sm-3 col-xs-4">To&#355;i participan&#355;ii</div>
+      </div>
+
+      <br/>
+      <p><strong>Duminic&#259;, 03.04.2016</strong></p>
+
+      <div class="row">
+        <div class="col-sm-2 col-xs-2 text-right">08:00 - 09:00</div>
+        <div class="col-sm-7 col-xs-6">Micul dejun</div>
+        <div class="col-sm-3 col-xs-4">To&#355;i participan&#355;ii</div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-2 col-xs-2 text-right">10:00 - 12:00</div>
+        <div class="col-sm-7 col-xs-6">Festivitatea de premiere - <strong>Amfiteatrul "M. Kog&#259;lniceanu", Universitatea "Al. I. Cuza"</strong></div>
+        <div class="col-sm-3 col-xs-4">To&#355;i participan&#355;ii</div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-2 col-xs-2 text-right">12:30 - 13:30</div>
+        <div class="col-sm-7 col-xs-6">Masa de pr&#226;nz. Plecarea participan&#355;ilor</strong></div>
+        <div class="col-sm-3 col-xs-4">To&#355;i participan&#355;ii</div>
       </div>
 
     </section>
